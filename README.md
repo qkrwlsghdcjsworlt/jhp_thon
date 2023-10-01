@@ -18,6 +18,7 @@
 3. git remote add origin <원격 저장소 주소:https (x), ssh (o)>
 4. git push origin main
 
-하면 에러가 발생할 것임.
+~~하면 에러가 발생할 것임.~~
+이 방법으로 하면 괜찮음. 
 
 
