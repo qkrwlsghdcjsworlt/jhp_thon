@@ -22,3 +22,12 @@
 이 방법으로 하면 괜찮음. 
 
 
+## n번째 컴퓨터에서 ssh 연결하기
+
+ssh config --global user.name "<깃허브 username>"
+git config --global user.email "<깃허브 이메일 주소>"
+
+eval `ssh-agent`
+ssh-add ~/.ssh/id_rsa
+ssh -vT git@github.com
+ssh -T git@github.com
